@@ -10,7 +10,7 @@ import 'package:flutter_sms/flutter_sms.dart';
 import 'package:internet_connection_checker/internet_connection_checker.dart';
 class Functions{
   _makingPhoneCall() async {
-    const number = '07598313139';
+    const number = '06598******';
     try{
       await FlutterPhoneDirectCaller.callNumber(number);
     }on Exception catch (_){
